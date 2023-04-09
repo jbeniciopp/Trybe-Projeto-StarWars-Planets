@@ -1,0 +1,164 @@
+body {
+    background-image: url('./images/fundo-star-wars.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Epilogue', sans-serif;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+
+.table-and-filter {
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 0 38px 38px 38px;
+}
+
+form {
+    margin: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+select {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 0;
+    border-bottom: 1px solid white;
+    margin: 10px;
+}
+
+option {
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.input-search {
+    width: 671px;
+    height: 30px;
+}
+
+.input-number {
+    width: 91px;
+    height: 30px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #FAE60A;
+    border-radius: 5px;
+    width: 98px;
+    height: 85px;
+    color: #FAE60A;
+    margin: 0 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    max-width: 700px;
+    margin: auto;
+    padding: 5px;
+}
+
+.table {
+    margin: auto;
+    color: white;
+    width: 80vw;
+    overflow-x: scroll;
+}
+
+.table::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+.table::-webkit-scrollbar-track {
+    background: #444955;
+    border-radius: 20px;
+}
+  
+.table::-webkit-scrollbar-thumb {
+    background-color: #7E7E7E;
+    border-radius: 20px;
+}
+
+.top-table th {
+    height: 70px;
+    background: #2E3035;
+    padding: 0 20px;
+}
+
+.loading {
+    text-align: center;
+}
+
+.lines td {
+    height: 60px;
+    border-bottom: 1px solid white;
+    padding: 0 5px;
+}
+
+.remove-button {
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width: 700px) {
+    .input-search {
+        width: max-content;
+    }
+
+    form div {
+        flex-direction: column;
+    }
+
+    button {
+        margin: 10px 0;
+    }
+
+    header div {
+        width: 400px;
+        height: 400px;
+    }
+
+    .image {
+        width: 200px;
+    }
+
+    .table-and-filter {
+        padding: 20px;
+    }
+
+    .table {
+        font-size: xx-small;
+        width: 280px;
+    }
+  }

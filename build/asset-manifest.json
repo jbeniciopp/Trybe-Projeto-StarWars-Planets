@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9791ade1.css",
+    "main.js": "/static/js/main.86b5f22a.js",
+    "static/media/fundo-star-wars.png": "/static/media/fundo-star-wars.712a38d0817c52874d8a.png",
+    "index.html": "/index.html",
+    "main.9791ade1.css.map": "/static/css/main.9791ade1.css.map",
+    "main.86b5f22a.js.map": "/static/js/main.86b5f22a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9791ade1.css",
+    "static/js/main.86b5f22a.js"
+  ]
+}
